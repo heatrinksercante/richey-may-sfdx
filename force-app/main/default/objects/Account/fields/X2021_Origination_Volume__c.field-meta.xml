@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X2021_Origination_Volume__c</fullName>
+    <description>2021 Mortgage Origination Volume</description>
+    <externalId>false</externalId>
+    <inlineHelpText>2021 Mortgage Origination Volume</inlineHelpText>
+    <label>2021 Origination Volume</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Segment__c</fullName>
+    <description>This is the broad audience or industry that applies to this account. It is used for reporting and marketing. This will affect the fields you can select in the subsegment field.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is the broad audience or industry that applies to this account. It is used for reporting and marketing. This will affect the fields you can select in the subsegment field.</inlineHelpText>
+    <label>Segment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Segment</valueSetName>
+    </valueSet>
+</CustomField>

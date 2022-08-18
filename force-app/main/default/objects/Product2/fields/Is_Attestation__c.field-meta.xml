@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Attestation__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Attestation products may trigger compliance reviews.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Attestation products may trigger compliance reviews.</inlineHelpText>
+    <label>Is Attestation</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

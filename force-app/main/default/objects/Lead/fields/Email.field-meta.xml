@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email</fullName>
+    <description>This is the best email address you have for this lead. Ideally, you will get their business email, but in the lead stage it might be a gmail, etc.</description>
+    <inlineHelpText>This is the best email address you have for this lead. Ideally, you will get their business email, but in the lead stage it might be a gmail, etc.</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Referred_By__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Optional: This is the external person that referred this contact. This is used for relationship reporting when contact are referred by people outside of Richey May.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Optional: This is the external person that referred this contact. This is used for relationship reporting when contact are referred by people outside of Richey May.</inlineHelpText>
+    <label>Contact Referred By</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Contacts</relationshipLabel>
+    <relationshipName>Contacts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

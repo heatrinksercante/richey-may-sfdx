@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HasOptedOutOfEmail</fullName>
+    <description>This field opts them out from receiving marketing emails. If they ever need to opt back in, they will have to change it themselves, you cannot change it back!</description>
+    <inlineHelpText>This field opts them out from receiving marketing emails. If they ever need to opt back in, they will have to change it themselves, you cannot change it back!</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+</CustomField>

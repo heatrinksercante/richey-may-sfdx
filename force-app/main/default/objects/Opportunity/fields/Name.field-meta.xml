@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Name</fullName>
+    <description>Follow the naming convention! Year – Product(s)/Service(s) 
+I.e. 2021 - AI Tax, 2021 - Analyze and Automate
+This will make it very easy to scan opportunities in reports and on account records.</description>
+    <inlineHelpText>Follow the naming convention! Year – Product(s)/Service(s) 
+I.e. 2021 - AI Tax, 2021 - Analyze and Automate
+This will make it very easy to scan opportunities in reports and on account records.</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+</CustomField>

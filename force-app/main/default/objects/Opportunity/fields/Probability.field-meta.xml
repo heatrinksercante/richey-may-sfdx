@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Probability</fullName>
+    <description>This is the probability that the opportunity will be closed/won. It will be updated automatically as the opportunity progresses through stages.</description>
+    <inlineHelpText>This is the probability that the opportunity will be closed/won. It will be updated automatically as the opportunity progresses through stages.</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email</fullName>
+    <description>This should be the best email to reach this contact. Ideally, it will be their work/business email but it may be a personal email.</description>
+    <inlineHelpText>This should be the best email to reach this contact. Ideally, it will be their work/business email but it may be a personal email.</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+</CustomField>

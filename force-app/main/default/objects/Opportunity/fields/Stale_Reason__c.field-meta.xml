@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stale_Reason__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Choose a Stale reason and time period where you would like the lead to appear in your pipleline.</inlineHelpText>
+    <label>Stale Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>StageName</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Stale_Reason</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Closed Stale</controllingFieldValue>
+            <valueName>Budget - Try Again - 6 months</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Stale</controllingFieldValue>
+            <valueName>Budget - Try Again - Next Q1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Stale</controllingFieldValue>
+            <valueName>Budget - Try Again - Next Q2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Stale</controllingFieldValue>
+            <valueName>Budget - Try Again - Next Q3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Stale</controllingFieldValue>
+            <valueName>Budget - Try Again - Next Q4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Stale</controllingFieldValue>
+            <valueName>Leadership Change - Try Again - 6 months</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Stale</controllingFieldValue>
+            <valueName>Leadership Change - Try Again - Next Q1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Stale</controllingFieldValue>
+            <valueName>Leadership Change - Try Again - Next Q2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Stale</controllingFieldValue>
+            <valueName>Leadership Change - Try Again - Next Q3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Stale</controllingFieldValue>
+            <valueName>Leadership Change - Try Again - Next Q4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Stale</controllingFieldValue>
+            <valueName>Unresponsive - Try Again - 6 months</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

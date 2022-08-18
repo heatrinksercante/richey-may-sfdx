@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Website</fullName>
+    <description>This is the company website for the lead. This helps us look up additional data quickly as needed.</description>
+    <inlineHelpText>This is the company website for the lead. This helps us look up additional data quickly as needed.</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCH_Invoice_Id_DOMO__c</fullName>
+    <description>CCH Invoice ID from the domo table https://richeymay.domo.com/datasources/fa9644c2-26f7-4a79-be44-a4bb64b2b918/details/data/table</description>
+    <externalId>false</externalId>
+    <inlineHelpText>CCH Invoice ID from the domo table https://richeymay.domo.com/datasources/fa9644c2-26f7-4a79-be44-a4bb64b2b918/details/data/table</inlineHelpText>
+    <label>CCH Invoice Id DOMO</label>
+    <length>100</length>
+    <referenceTo>CCH_Data_from_DOMO__x</referenceTo>
+    <relationshipLabel>CCH Invoices</relationshipLabel>
+    <relationshipName>CCH_Invoices</relationshipName>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>ExternalLookup</type>
+</CustomField>

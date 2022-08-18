@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OwnerId</fullName>
+    <description>Account Owner owns the day-to-day interactions with the client. This can be changed after the record is saved. This is the user that will get activity notifications about the client.</description>
+    <inlineHelpText>Account Owner owns the day-to-day interactions with the client. This can be changed after the record is saved. This is the user that will get activity notifications about the client.</inlineHelpText>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

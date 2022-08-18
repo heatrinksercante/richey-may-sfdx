@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Domain__c</fullName>
+    <description>Everything AFTER the &quot;@&quot; in the company&apos;s email address. This helps eliminate duplicates with similar names (i.e. @FirstMortgage.com vs. @1stMortgage.com are two different companies).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Everything AFTER the &quot;@&quot; in the company&apos;s email address. This helps eliminate duplicates with similar names (i.e. @FirstMortgage.com vs. @1stMortgage.com are two different companies).</inlineHelpText>
+    <label>Email Domain</label>
+    <length>100</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

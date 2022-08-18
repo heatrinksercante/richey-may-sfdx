@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OwnerId</fullName>
+    <description>This is the person responsible for maintaining a relationship with this contact. It defaults to the user entering them in the database, but can be reassigned once the contact is saved. This is the user that will receive activity notifications on this client.</description>
+    <inlineHelpText>This is the person responsible for maintaining a relationship with this contact. It defaults to the user entering them in the database, but can be reassigned once the contact is saved. This is the user that will receive activity notifications on this client.</inlineHelpText>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Originator__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The Originator is the RICHEY MAY EMPLOYEE who brought in the relationship with this account originally. Generally this is the first person to interact with this account. Filled from who entered in Dynamics and may need to be updated.
+Contact SF admin if the person you&apos;re looking for isn&apos;t here.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Originator is the RICHEY MAY EMPLOYEE who brought in the relationship with this account originally. Generally this is the first person to interact with this account. Filled from who entered in Dynamics and may need to be updated.
+Contact SF admin if the person you&apos;re looking for isn&apos;t here.</inlineHelpText>
+    <label>Account Originator</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Contact.Account.Name</field>
+            <operation>equals</operation>
+            <value>Richey May &amp; Co.</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Accounts (Account Originator)</relationshipLabel>
+    <relationshipName>Accounts1</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

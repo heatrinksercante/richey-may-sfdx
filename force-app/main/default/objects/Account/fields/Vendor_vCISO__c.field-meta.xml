@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vendor_vCISO__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This is the company they use for vCISO Services or used prior to Richey May if a current TPN client.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is the company they use for vCISO Services or used prior to Richey May if a current TPN client.</inlineHelpText>
+    <label>Vendor - vCISO</label>
+    <referenceTo>Vendor__c</referenceTo>
+    <relationshipLabel>Accounts (Vendor - vCISO)</relationshipLabel>
+    <relationshipName>AccountsModF</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

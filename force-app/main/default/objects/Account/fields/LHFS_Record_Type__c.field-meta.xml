@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LHFS_Record_Type__c</fullName>
+    <description>Loans held for sale value</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Loans held for sale value</inlineHelpText>
+    <label>LHFS Record Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Segment__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>MSR_and_LHFS_Values</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Mortgage Bank</controllingFieldValue>
+            <controllingFieldValue>Bank</controllingFieldValue>
+            <controllingFieldValue>Credit Union</controllingFieldValue>
+            <valueName>Not Entered</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mortgage Bank</controllingFieldValue>
+            <controllingFieldValue>Bank</controllingFieldValue>
+            <controllingFieldValue>Credit Union</controllingFieldValue>
+            <valueName>FV - Fair Value</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mortgage Bank</controllingFieldValue>
+            <controllingFieldValue>Bank</controllingFieldValue>
+            <controllingFieldValue>Credit Union</controllingFieldValue>
+            <valueName>LOCOM - Lower of Cost or Market</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

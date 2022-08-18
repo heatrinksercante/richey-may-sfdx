@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Driven_Opportunity</fullName>
+    <active>true</active>
+    <businessProcess>Product-Driven</businessProcess>
+    <description>Product-Driven Opportunities have 2 optional slots for completing demos with the client.</description>
+    <label>Product-Driven Opportunity</label>
+    <picklistValues>
+        <picklist>ForecastCategoryName</picklist>
+        <values>
+            <fullName>Best Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Advertisement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ChannelPartner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google AdWords</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchased List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Show</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Loss_Reason__c</picklist>
+        <values>
+            <fullName>Lost to Competitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Budget %2F Lost Funding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Decision %2F Non-Responsive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Segment__c</picklist>
+        <values>
+            <fullName>Alternative Investments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial Lender</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Union</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FinTech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media %26 Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid-Market Advisory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mortgage Bank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mortgage Broker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Entered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Stale_Reason__c</picklist>
+        <values>
+            <fullName>Budget - Try Again - 6 months</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Budget - Try Again - Next Q1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Budget - Try Again - Next Q2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Budget - Try Again - Next Q3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Budget - Try Again - Next Q4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leadership Change - Try Again - 6 months</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leadership Change - Try Again - Next Q1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leadership Change - Try Again - Next Q2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leadership Change - Try Again - Next Q3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leadership Change - Try Again - Next Q4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unresponsive - Try Again - 6 months</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SubSegment__c</picklist>
+        <values>
+            <fullName>AI Service Provider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AUP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AntiPiracy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Audio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blocker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Union</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crypto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Custody Exam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FTR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Feeder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FinTech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fund of Funds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gaming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HOA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hedge Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investment Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Long Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Long%2FShort</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Management Company</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing_PR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Master</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mortgage Broker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mortgage Service Provider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multi-strategy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Entered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTT Vendor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opportunity Zone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PFIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Post_Production</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Equity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Production</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Real Estate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Real Estate Investment Trust %28REIT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regulated Investment Company %28RIC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scanning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Splitter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Studio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surprise Exam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trust</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VFX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Venture Capital</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Former Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospective Client</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

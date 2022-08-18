@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mortgage_Service_Provider_Type__c</fullName>
+    <description>Select all that apply. If you&apos;re looking for a type not listed here, contact your salesforce admin</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select all that apply. If you&apos;re looking for a type not listed here, contact your salesforce admin</inlineHelpText>
+    <label>Mortgage Service Provider Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Mortgage_Service_Provider_Type</valueSetName>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Referred_By__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This is the person outside of Richey May that referred this lead to you. This is used for relationship reporting and is an optional field. If this lead was referred by someone inside Richey May, use the Lead Originator field.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is the person outside of Richey May that referred this lead to you. This is used for relationship reporting and is an optional field. If this lead was referred by someone inside Richey May, use the Lead Originator field.</inlineHelpText>
+    <label>Lead Referred By</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Leads</relationshipLabel>
+    <relationshipName>Leads</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Lookup</type>
+</CustomField>

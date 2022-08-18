@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MobilePhone</fullName>
+    <inlineHelpText>This is for Mobile Phone numbers only. We may use this field for texting in the future. If you have a business phone number, enter that in the Phone box and leave this one blank.</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+</CustomField>

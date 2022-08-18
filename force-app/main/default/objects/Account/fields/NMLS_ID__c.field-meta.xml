@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NMLS_ID__c</fullName>
+    <description>NMLS ID for mortgage lenders. Use https://www.nmlsconsumeraccess.org/ to look it up. It should also be in the footer of the company website. ONLY ENTER NUMBERS, NO # OR OTHER CHARACTERS.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>NMLS ID for mortgage lenders. Use https://www.nmlsconsumeraccess.org/ to look it up. It should also be in the footer of the company website. ONLY ENTER NUMBERS, NO # OR OTHER CHARACTERS.</inlineHelpText>
+    <label>NMLS ID</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

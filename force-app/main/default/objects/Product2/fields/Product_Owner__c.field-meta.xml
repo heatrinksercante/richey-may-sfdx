@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Owner__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The Product Owner gets notifications when the product is added to Opportunities. Generally they are Subject Matter Expert and/or team leader for this product.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Product Owner gets notifications when the product is added to Opportunities. Generally they are Subject Matter Expert and/or team leader for this product.</inlineHelpText>
+    <label>Product Owner</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Products1</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

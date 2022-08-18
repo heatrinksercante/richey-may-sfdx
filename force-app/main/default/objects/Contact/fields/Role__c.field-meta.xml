@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Role__c</fullName>
+    <description>This is the role standardization we use for marketing campaigns and reporting. Please choose the group that best fits the contact&apos;s job function and title. If you don&apos;t see a role that fits with your contact, contact your Salesforce Admin to have it added to the list.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is the role standardization we use for marketing campaigns and reporting. Please choose the group that best fits the contact&apos;s job function and title. If you don&apos;t see a role that fits with your contact, contact your Salesforce Admin to have it added to the list.</inlineHelpText>
+    <label>Role</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Role</valueSetName>
+    </valueSet>
+</CustomField>

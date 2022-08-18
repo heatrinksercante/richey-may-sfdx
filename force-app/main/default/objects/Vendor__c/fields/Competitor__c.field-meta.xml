@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competitor__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Does this product compete with something Richey May offers? If yes, check this box.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Does this product compete with something Richey May offers? If yes, check this box.</inlineHelpText>
+    <label>Competitor</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

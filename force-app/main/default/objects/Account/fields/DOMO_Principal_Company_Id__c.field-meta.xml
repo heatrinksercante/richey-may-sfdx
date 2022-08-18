@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DOMO_Principal_Company_Id__c</fullName>
+    <description>Company Id column from this table in DOMO that ties all the different system Ids together: https://richeymay.domo.com/datasources/64ab3206-4758-4e27-9be0-ea52493c62a9/details/data/table
+This is used to tie MsDyn, Xero and CCH Ids to the correct company listing. For DOMO admin use only.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Company Id column from this table in DOMO that ties all the different system Ids together: https://richeymay.domo.com/datasources/64ab3206-4758-4e27-9be0-ea52493c62a9/details/data/table
+This is used to tie MsDyn, Xero and CCH Ids to the correct company listing. For DOMO admin use only.</inlineHelpText>
+    <label>DOMO Principal Company Id</label>
+    <length>100</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

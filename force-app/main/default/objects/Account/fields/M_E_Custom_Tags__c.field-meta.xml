@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>M_E_Custom_Tags__c</fullName>
+    <description>M&amp;E Custom tags Select all that apply. If the tag you are looking for is missing, contact your SF Admin</description>
+    <externalId>false</externalId>
+    <inlineHelpText>M&amp;E Custom tags Select all that apply. If the tag you are looking for is missing, contact your SF Admin</inlineHelpText>
+    <label>M&amp;E Custom Tags</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Decision Maker</fullName>
+                <default>false</default>
+                <label>Decision Maker</label>
+            </value>
+            <value>
+                <fullName>Influencer</fullName>
+                <default>false</default>
+                <label>Influencer</label>
+            </value>
+            <value>
+                <fullName>Cybersecurity</fullName>
+                <default>false</default>
+                <label>Cybersecurity</label>
+            </value>
+            <value>
+                <fullName>AntiPiracy</fullName>
+                <default>false</default>
+                <label>AntiPiracy</label>
+            </value>
+            <value>
+                <fullName>LA</fullName>
+                <default>false</default>
+                <label>LA</label>
+            </value>
+            <value>
+                <fullName>NYC</fullName>
+                <default>false</default>
+                <label>NYC</label>
+            </value>
+            <value>
+                <fullName>Cybersecurity Roundtable</fullName>
+                <default>false</default>
+                <label>Cybersecurity Roundtable</label>
+            </value>
+            <value>
+                <fullName>Back to Hollywood</fullName>
+                <default>false</default>
+                <label>Back to Hollywood</label>
+            </value>
+            <value>
+                <fullName>Dr TPN</fullName>
+                <default>false</default>
+                <label>Dr TPN</label>
+            </value>
+            <value>
+                <fullName>TPN</fullName>
+                <default>false</default>
+                <label>TPN</label>
+            </value>
+            <value>
+                <fullName>Pen Test</fullName>
+                <default>false</default>
+                <label>Pen Test</label>
+            </value>
+            <value>
+                <fullName>SOC</fullName>
+                <default>false</default>
+                <label>SOC</label>
+            </value>
+            <value>
+                <fullName>Previous Customer</fullName>
+                <default>false</default>
+                <label>Previous Customer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vendor_Previous_Tax_Provider__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Previous Tax Provider (or current tax provider if not Richey May) used by the client. You will only be able to select from the Vendors list (not accounts or contacts). If the Vendor you are looking for is missing, please add it to the list.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Previous Tax Provider (or current tax provider if not Richey May) used by the client. You will only be able to select from the Vendors list (not accounts or contacts). If the Vendor you are looking for is missing, please add it to the list.</inlineHelpText>
+    <label>Vendor - Previous Tax Provider</label>
+    <referenceTo>Vendor__c</referenceTo>
+    <relationshipLabel>Accounts (Vendor - Previous Tax Provider)</relationshipLabel>
+    <relationshipName>Accounts9</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

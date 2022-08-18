@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Description</fullName>
+    <description>Use this section for crucial information about this lead that anyone talking to them would need to know before reaching out to them.</description>
+    <inlineHelpText>Use this section for crucial information about this lead that anyone talking to them would need to know before reaching out to them.</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+</CustomField>

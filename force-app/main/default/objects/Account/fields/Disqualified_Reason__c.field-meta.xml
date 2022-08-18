@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Disqualified_Reason__c</fullName>
+    <description>Select the reason for disqualifying this account. You can add more details in the Disqualification Notes field.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the reason for disqualifying this account. You can add more details in the Disqualification Notes field.</inlineHelpText>
+    <label>Disqualified Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Account_Client_Status__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Disqualified_Reason</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Disqualified - Former Client</controllingFieldValue>
+            <valueName>Poor Fit - Unresponsive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Disqualified - Former Client</controllingFieldValue>
+            <valueName>Poor Fit - Leadership</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Disqualified - Former Client</controllingFieldValue>
+            <valueName>Other - See Notes</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mortgage_Channels__c</fullName>
+    <description>These are the channels a mortgage bank operates in. Add all that apply.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>These are the channels a mortgage bank operates in. Add all that apply.</inlineHelpText>
+    <label>Mortgage Channels</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Mortgage_Channels</valueSetName>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

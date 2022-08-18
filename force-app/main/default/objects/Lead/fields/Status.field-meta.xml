@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status</fullName>
+    <description>The lead status is used to track your activity with the lead. You can move through the stages flexibly. Follow the Guidance For Success to find the right stage for you!</description>
+    <inlineHelpText>The lead status is used to track your activity with the lead. You can move through the stages flexibly. Follow the Guidance For Success to find the right stage for you!</inlineHelpText>
+    <trackFeedHistory>true</trackFeedHistory>
+    <type>Picklist</type>
+</CustomField>

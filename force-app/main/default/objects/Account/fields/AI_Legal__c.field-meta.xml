@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AI_Legal__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This is the Legal representation this AI client uses. You will be able to select from accounts that are the AI Service Provider Record Type.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is the Legal representation this AI client uses. You will be able to select from accounts that are the AI Service Provider Record Type.</inlineHelpText>
+    <label>AI - Legal</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>You will only be able to select from accounts that have the AI Service Provider Record Type. If the account you&apos;re looking for is missing, add it as an AI Service Provider.</errorMessage>
+        <filterItems>
+            <field>Account.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>AI Service Provider</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Accounts</relationshipLabel>
+    <relationshipName>Accounts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

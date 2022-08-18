@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Account_Contact__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>The primary account contact refers to the main person RM has contact with at this account.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The primary account contact refers to the main person RM has contact with at this account.</inlineHelpText>
+    <label>Primary Account Contact</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Accounts</relationshipLabel>
+    <relationshipName>Accounts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

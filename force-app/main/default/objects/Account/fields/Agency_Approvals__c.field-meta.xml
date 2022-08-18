@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agency_Approvals__c</fullName>
+    <description>Mortgage Agency approvals that this Account has. Select all that apply.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Mortgage Agency approvals that this Account has. Select all that apply.</inlineHelpText>
+    <label>Agency Approvals</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Agencies_for_Approvals</valueSetName>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

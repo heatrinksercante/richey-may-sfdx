@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubSegment__c</fullName>
+    <description>This is a subtype that helps refine our targeting for marketing and reports in addition to the segment. Your options will vary depending on what you select for Segment.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is a subtype that helps refine our targeting for marketing and reports in addition to the segment. Your options will vary depending on what you select for Segment.</inlineHelpText>
+    <label>SubSegment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Segment__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>SubSegment</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>FinTech</controllingFieldValue>
+            <controllingFieldValue>Alternative Investments</controllingFieldValue>
+            <controllingFieldValue>Construction</controllingFieldValue>
+            <controllingFieldValue>Mortgage Bank</controllingFieldValue>
+            <controllingFieldValue>Mortgage Broker</controllingFieldValue>
+            <controllingFieldValue>Bank</controllingFieldValue>
+            <controllingFieldValue>Commercial Lender</controllingFieldValue>
+            <controllingFieldValue>Credit Union</controllingFieldValue>
+            <controllingFieldValue>Media &amp; Entertainment</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>Not Entered</controllingFieldValue>
+            <controllingFieldValue>Mid-Market Advisory</controllingFieldValue>
+            <valueName>Not Entered</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternative Investments</controllingFieldValue>
+            <valueName>AUP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternative Investments</controllingFieldValue>
+            <valueName>Blocker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternative Investments</controllingFieldValue>
+            <valueName>Crypto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternative Investments</controllingFieldValue>
+            <valueName>Custody Exam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternative Investments</controllingFieldValue>
+            <valueName>Equities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternative Investments</controllingFieldValue>
+            <valueName>Exam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternative Investments</controllingFieldValue>
+            <valueName>Feeder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternative Investments</controllingFieldValue>
+            <valueName>FTR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternative Investments</controllingFieldValue>
+            <valueName>Fund of Funds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternative Investments</controllingFieldValue>
+            <valueName>General Partner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternative Investments</controllingFieldValue>
+            <valueName>Hedge Fund</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternative Investments</controllingFieldValue>
+            <valueName>HOA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternative Investments</controllingFieldValue>
+            <valueName>Investment Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternative Investments</controllingFieldValue>
+            <valueName>Long/Short</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternative Investments</controllingFieldValue>
+            <valueName>Long Only</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternative Investments</controllingFieldValue>
+            <valueName>Management Company</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternative Investments</controllingFieldValue>
+            <valueName>Master</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternative Investments</controllingFieldValue>
+            <valueName>Multi-strategy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternative Investments</controllingFieldValue>
+            <valueName>Opportunity Zone</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternative Investments</controllingFieldValue>
+            <valueName>PFIC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternative Investments</controllingFieldValue>
+            <valueName>Private Equity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternative Investments</controllingFieldValue>
+            <valueName>Real Estate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternative Investments</controllingFieldValue>
+            <valueName>Real Estate Investment Trust (REIT)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternative Investments</controllingFieldValue>
+            <valueName>Regulated Investment Company (RIC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternative Investments</controllingFieldValue>
+            <valueName>Review</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternative Investments</controllingFieldValue>
+            <valueName>Splitter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternative Investments</controllingFieldValue>
+            <valueName>Surprise Exam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternative Investments</controllingFieldValue>
+            <valueName>Trust</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternative Investments</controllingFieldValue>
+            <valueName>Venture Capital</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bank</controllingFieldValue>
+            <valueName>Bank</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit Union</controllingFieldValue>
+            <valueName>Credit Union</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media &amp; Entertainment</controllingFieldValue>
+            <valueName>AntiPiracy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media &amp; Entertainment</controllingFieldValue>
+            <valueName>Audio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media &amp; Entertainment</controllingFieldValue>
+            <valueName>Gaming</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media &amp; Entertainment</controllingFieldValue>
+            <valueName>Marketing_PR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media &amp; Entertainment</controllingFieldValue>
+            <valueName>OTT Vendor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media &amp; Entertainment</controllingFieldValue>
+            <valueName>Post_Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media &amp; Entertainment</controllingFieldValue>
+            <valueName>Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media &amp; Entertainment</controllingFieldValue>
+            <valueName>Scanning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media &amp; Entertainment</controllingFieldValue>
+            <valueName>Social Engineering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media &amp; Entertainment</controllingFieldValue>
+            <valueName>Studio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media &amp; Entertainment</controllingFieldValue>
+            <valueName>TV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media &amp; Entertainment</controllingFieldValue>
+            <valueName>VFX</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

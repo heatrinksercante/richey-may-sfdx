@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Client_Status__c</fullName>
+    <description>The Account Client Status tells us what our relationship is like with this company. Follow the Guidance for Success at each stage to optimize this information!</description>
+    <externalId>false</externalId>
+    <label>Account Client Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Client_Status1</valueSetName>
+    </valueSet>
+</CustomField>

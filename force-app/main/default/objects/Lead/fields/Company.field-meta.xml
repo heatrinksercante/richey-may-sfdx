@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Company</fullName>
+    <description>If your lead has an account that&apos;s already in the system, use that field and match the company name here. If not, fill out the company name as you want the account to appear.</description>
+    <inlineHelpText>If your lead has an account that&apos;s already in the system, use that field and match the company name here. If not, fill out the company name as you want the account to appear.</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+</CustomField>

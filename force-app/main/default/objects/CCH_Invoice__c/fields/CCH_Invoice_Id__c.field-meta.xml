@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCH_Invoice_Id__c</fullName>
+    <description>The Invoice ID from CCH. If no invoice has been created yet, the Invoice will be named &quot;Unbilled WIP&quot;</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Invoice ID from CCH. If no invoice has been created yet, the Invoice will be named &quot;Unbilled WIP&quot;</inlineHelpText>
+    <label>CCH Invoice Id</label>
+    <length>100</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

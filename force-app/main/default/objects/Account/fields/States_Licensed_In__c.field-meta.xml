@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>States_Licensed_In__c</fullName>
+    <description>States where the mortgage lender is licensed separated by commas. This information is pulled from HMDA data. Last Updated:</description>
+    <externalId>false</externalId>
+    <inlineHelpText>States where the mortgage lender is licensed separated by commas. This information is pulled from HMDA data. Last Updated:</inlineHelpText>
+    <label>States Licensed In</label>
+    <length>250</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

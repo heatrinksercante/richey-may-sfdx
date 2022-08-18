@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Service_Interest__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This is the Product or Service this lead is interested in. This helps us guide marketing campaigns. You will be able to add multiple Products in the Opportunity stage.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is the Product or Service this lead is interested in. This helps us guide marketing campaigns. You will be able to add multiple Products in the Opportunity stage.</inlineHelpText>
+    <label>Product/Service Interest</label>
+    <referenceTo>Product2</referenceTo>
+    <relationshipLabel>Leads</relationshipLabel>
+    <relationshipName>Leads</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Lookup</type>
+</CustomField>

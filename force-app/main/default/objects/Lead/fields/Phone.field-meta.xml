@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phone</fullName>
+    <description>Enter the business phone number you have for this lead. If it is a mobile number, enter it in the Mobile field so we can use it for texting. If you don&apos;t have a business phone number, leave this blank.</description>
+    <inlineHelpText>Enter the business phone number you have for this lead. If it is a mobile number, enter it in the Mobile field so we can use it for texting. If you don&apos;t have a business phone number, leave this blank.</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+</CustomField>

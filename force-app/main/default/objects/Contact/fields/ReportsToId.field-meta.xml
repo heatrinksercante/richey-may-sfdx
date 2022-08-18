@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ReportsToId</fullName>
+    <businessStatus>Hidden</businessStatus>
+    <description>DEPRECIATED. we are not using this field and it will be hidden in the next batch contact update.</description>
+    <inlineHelpText>DEPRECIATED. we are not using this field and it will be hidden in the next batch contact update.</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

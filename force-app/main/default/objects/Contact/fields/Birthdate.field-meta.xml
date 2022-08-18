@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Birthdate</fullName>
+    <description>If you know the contact&apos;s birthday, add it! We currently do not do any automatic birthday messages but we may in the future if this field is used frequently enough.</description>
+    <inlineHelpText>If you know the contact&apos;s birthday, add it! We currently do not do any automatic birthday messages but we may in the future if this field is used frequently enough.</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+</CustomField>

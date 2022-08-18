@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AI_Prime_Broker__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The prime broker used by the client. You will only be able to select from the AI Service Provider accounts.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The prime broker used by the client. You will only be able to select from the AI Service Provider accounts.</inlineHelpText>
+    <label>AI - Prime Broker</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Accounts (AI - Prime Broker)</relationshipLabel>
+    <relationshipName>Accounts1</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

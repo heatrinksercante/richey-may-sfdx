@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vendor_Previous_TPN__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This is the company they use for their TPN assessment or used prior to Richey May if a current TPN client.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is the company they use for their TPN assessment or used prior to Richey May if a current TPN client.</inlineHelpText>
+    <label>Vendor - Previous TPN</label>
+    <referenceTo>Vendor__c</referenceTo>
+    <relationshipLabel>Accounts (Vendor - Previous TPN)</relationshipLabel>
+    <relationshipName>AccountsMobs</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

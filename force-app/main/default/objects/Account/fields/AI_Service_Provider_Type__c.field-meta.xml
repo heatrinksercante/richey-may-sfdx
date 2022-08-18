@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AI_Service_Provider_Type__c</fullName>
+    <description>Select all that apply. If you&apos;re looking for a type of service provider that isn&apos;t available here, contact your SF Admin right away!</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select all that apply. If you&apos;re looking for a type of service provider that isn&apos;t available here, contact your SF Admin right away!</inlineHelpText>
+    <label>AI Service Provider Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>AI_Service_Provider_Type</valueSetName>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

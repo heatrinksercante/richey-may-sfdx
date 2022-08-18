@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vendor_Maker_Name__c</fullName>
+    <description>This is the company that owns or makes the product. I.e. Optimal Blue is owned by Black Knight, so they would be the maker.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is the company that owns or makes the product. I.e. Optimal Blue is owned by Black Knight, so they would be the maker.</inlineHelpText>
+    <label>Vendor Maker Name</label>
+    <length>100</length>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

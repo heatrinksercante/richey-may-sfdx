@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phone</fullName>
+    <description>DO NOT enter extensions. Those go in the EXT field. For domestic numbers, formatting will apply automatically. For international numbers, start typing with a &quot;+&quot; and enter your own punctuation. For example: +49 8178 94 07-0.</description>
+    <inlineHelpText>DO NOT enter extensions. Those go in the EXT field. For domestic numbers, formatting will apply automatically. For international numbers, start typing with a &quot;+&quot; and enter your own punctuation. For example: +49 8178 94 07-0.</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+</CustomField>

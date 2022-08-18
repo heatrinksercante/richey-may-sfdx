@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Referred_By__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Optional: This is the external person (i.e. NOT an RMC employee) that referred this account to us. Used for relationship tracking.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Optional: This is the external person (i.e. NOT an RMC employee) that referred this account to us. Used for relationship tracking.</inlineHelpText>
+    <label>Account Referred By</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Accounts (Account Referred By)</relationshipLabel>
+    <relationshipName>Accounts2</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

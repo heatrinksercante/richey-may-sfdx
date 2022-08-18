@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RM_Employee_Active__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Checked means employee is active at Richey May. Unchecked means they no longer work at the firm.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Checked means employee is active at Richey May. Unchecked means they no longer work at the firm.</inlineHelpText>
+    <label>RM Employee Active</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

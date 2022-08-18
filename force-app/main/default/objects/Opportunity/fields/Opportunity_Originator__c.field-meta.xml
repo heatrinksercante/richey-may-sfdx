@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Originator__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This is the RICHEY MAY EMPLOYEE who originated the opportunity - aka the first person to talk to them. This is likely to be the same as lead owner, but doesn&apos;t have to be!</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is the RICHEY MAY EMPLOYEE who originated the opportunity - aka the first person to talk to them. This is likely to be the same as lead owner, but doesn&apos;t have to be!</inlineHelpText>
+    <label>Opportunity Originator</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Contact.AccountId</field>
+            <operation>equals</operation>
+            <value>0015e00000DSOybAAH</value>
+        </filterItems>
+        <infoMessage>Search RM Employees</infoMessage>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Opportunities (Opportunity Originator)</relationshipLabel>
+    <relationshipName>Opportunities2</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

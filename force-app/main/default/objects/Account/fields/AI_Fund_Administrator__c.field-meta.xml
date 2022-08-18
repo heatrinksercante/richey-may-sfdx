@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AI_Fund_Administrator__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The Fund Administrator the client uses. You will only be able to pull from accounts that have the Record type AI Service Provider</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Fund Administrator the client uses. You will only be able to pull from accounts that have the Record type AI Service Provider</inlineHelpText>
+    <label>AI - Fund Administrator</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Accounts (AI - Fund Administrator)</relationshipLabel>
+    <relationshipName>Accounts3</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>
